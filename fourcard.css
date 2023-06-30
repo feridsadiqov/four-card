@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: hsl(0, 0%, 98%);
+   
+   
+  }
+  .header {
+    margin: 4% auto;
+  }
+  
+  .h1 {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);;
+    padding: 2% 10%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .book {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: inherit;
+  }
+  .pro {
+    text-align: center;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin: 1% auto;
+    
+  }
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .div1, .div2, .div3, .div4 {
+    position: relative;
+  }
+  
+  .div1 {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin: 5% auto;
+  }
+  .div2 {
+    margin-top: 25px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+  }
+  .div3 {
+    margin-top: 30px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+  
+  }
+  .div4 {
+    margin: 5% auto;
+    border-top: 5px solid hsl(212, 86%, 64%);
+  }
+  .div1, .div2,.div3,.div4 {
+    border-radius: 6px;
+    background-color: white;
+    padding: 5%;
+    height: 250px;
+    box-shadow: 2px 11px 19px 0px rgba(167,198,214,0.75);
+  -webkit-box-shadow: 2px 11px 19px 0px rgba(167,198,214,0.75);
+  -moz-box-shadow: 2px 11px 19px 0px rgba(167,198,214,0.75);}
+  
+  .sect1,.sect3 {
+  margin: auto 0;
+  }
+  h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    
+  }
+  .p1,.p2,.p3,.p4{font-weight: 400;
+    color: hsl(229, 6%, 66%);}
+    
+  .sect1,.sect2,.sect3 {
+    flex: 1;
+  }
+  .image1,.image2,.image3,.image4 {
+    bottom: 11%;
+    right: 8%;
+    position: absolute;
+  }
+  
+  @media all and (max-width:600px) {
+    body{
+      min-width: 375px;
+    }
+    .container {
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      margin: 1% auto;
+    }
+    
+    .h1 {
+      font-weight: 400;
+      color: hsl(234, 12%, 34%);
+      padding: 2% 10%;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .book {
+      color: hsl(234, 12%, 34%);
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    .pro {
+      text-align: center;
+      font-weight: 200;
+      color: hsl(234, 12%, 34%);
+      padding: 2% 10%;
+  }}
